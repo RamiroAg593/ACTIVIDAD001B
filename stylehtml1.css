@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('IMAGENES/fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333; /* Color del título más oscuro */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #666; /* Color del subtítulo un poco más oscuro */
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav button {
+    padding: 15px 30px;
+    margin: 10px 5px; /* Espacio entre los botones */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para el primer botón */
+.nav button:first-child {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    border: none;
+}
+
+/* Estilos para el segundo botón */
+.nav button:nth-child(2) {
+    background-color: #28a745; /* Color verde */
+    color: white;
+    border: none;
+}
+
+.nav button:hover {
+    opacity: 0.8; /* Reducción de la opacidad al pasar el ratón */
+}
+
+/* Estilos para la imagen del grupo */
+.group-image {
+    width: 2 cm;
+    height: 2 cm;
+    margin-bottom: 20px;
+}
